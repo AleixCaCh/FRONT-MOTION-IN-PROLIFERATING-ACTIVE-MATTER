@@ -1,0 +1,69 @@
+# Alternative model: newborn particles receive a random orientation.
+
+# Periodic clustered phase
+[run]
+run_id = 0
+seed = 69069
+p0 = 0.85
+q0 = 0.15
+Ns = 50
+R_inter = 0.1
+rho0 = 1500.0
+save_per_step = 5000
+v0 = 0.000356
+Dr = 0.00000356
+Dtheta = 0.002
+dt = 0.01
+T = 10000.0
+L = 1.0
+
+# Spatially structured flocking phase
+[run]
+run_id = 1
+seed = 69069
+p0 = 0.85
+q0 = 0.15
+Ns = 50
+R_inter = 0.1
+rho0 = 1500.0
+save_per_step = 5000
+v0 = 0.003557
+Dr = 0.00000356
+Dtheta = 0.002
+dt = 0.01
+T = 10000.0
+L = 1.0
+
+# Flocking phase
+[run]
+run_id = 2
+seed = 69069
+p0 = 0.85
+q0 = 0.15
+Ns = 50
+R_inter = 0.1
+rho0 = 1500.0
+save_per_step = 5000
+v0 = 0.01125
+Dr = 0.00002
+Dtheta = 0.002
+dt = 0.01
+T = 10000.0
+L = 1.0
+
+# Disordered phase
+[run]
+run_id = 3
+seed = 69069
+p0 = 0.85
+q0 = 0.15
+Ns = 50
+R_inter = 0.1
+rho0 = 1500.0
+save_per_step = 5000
+v0 = 0.000356
+Dr = 0.00006325
+Dtheta = 0.002
+dt = 0.01
+T = 10000.0
+L = 1.0

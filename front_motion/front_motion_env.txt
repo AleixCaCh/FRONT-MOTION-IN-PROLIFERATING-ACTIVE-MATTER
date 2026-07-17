@@ -1,0 +1,16 @@
+# Python packages for the front-motion workflow
+# Tested against the versions in the working Jupyter kernel.
+#
+# Install with:
+#   python -m pip install -r front_motion_env.txt
+#
+# GCC is also required to compile the C code, but it is not a Python package.
+
+numpy==2.4.1
+pandas==3.0.0
+matplotlib==3.10.8
+scipy==1.17.0
+imageio-ffmpeg==0.6.0
+jupyterlab==4.5.3
+ipykernel==7.1.0
+ipython==9.9.0
